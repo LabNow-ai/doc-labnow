@@ -2,18 +2,18 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-const github_org = 'ailifesci-lab';
-const github_repo = 'rws-doc';
-const github_dir = 'rws-doc';
-const name_brand = 'Ai LifeSci';
+const github_org = 'LabNow-ai';
+const github_repo = 'doc-labnow';
+const github_dir = 'src';
+const name_brand = 'LabNow';
 
 const config: Config = {
-  title: 'RWS Cloud Platform',
+  title: 'LabNow.ai',
   tagline: 'One-stop AI and Data Science Platform',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://doc.ailifesci.cn',
+  url: 'https://doc.labnow.ai',
 
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'

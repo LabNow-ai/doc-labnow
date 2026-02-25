@@ -2,6 +2,6 @@
 sidebar_position: 02
 ---
 
-# Introduction to RWS
+# Introduction to LabNow.ai
 
 Content comming soon...
