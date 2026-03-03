@@ -1,17 +1,19 @@
 ---
-slug: 2024-LabNow-stack-ci-cd-practices-and-philosophy-en
+slug: 2025-labnow-stack-ci-cd-practices-and-philosophy-en
 title: "📝 LabNow CI/CD Toolkits and Practices"
 authors: [haobibo]
 tags: [LabNow, docs]
 ---
 
-In this brief blog, we will introduct the CI/CD philosophy, and our practices.
+In this brief blog, we will introduce the CI/CD philosophy, and our practices.
 
 ## Our CI/CD Philosophy
 
 Back to years ago, our team has tried CI/CD tools including but not limited to travis, GitLab runners, etc. Until recently, we adopted GitHub actions as our current choice.
 
 As these tools evolves (or your choice changes), the code CI/CD pipelines, in the form of YAML files or manual configure pipelines, has to be refactored to fit new tools.
+
+<!-- truncate -->
 
 Our philosophy is to keep the CI/CD as simple as possible, and de-couple with the CI/CD tools.
 As such, it's a nature choice to **put more function implementations in scripts/modules in source code, instead of relying on tools provided functionalities** (e.g.: Github Actions).

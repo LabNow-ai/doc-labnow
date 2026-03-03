@@ -1,19 +1,17 @@
 import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const github_org = 'LabNow-ai';
 const github_repo = 'doc-labnow';
 const github_dir = 'src';
-const name_brand = 'LabNow';
+const name_brand = 'LabNow.ai';
 
-const config: Config = {
-  title: 'LabNow.ai',
-  tagline: 'One-stop AI and Data Science Platform',
+export default {
+  title: 'Documentation',
+  url: 'https://doc.labnow.ai', // production url of the site
+
   favicon: 'img/logo.svg',
-
-  // Set the production url of your site here
-  url: 'https://doc.labnow.ai',
+  tagline: 'One-stop AI and Data Science Platform',
 
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
@@ -81,44 +79,28 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro-en',
-            },
+            { label: 'Tutorial', to: '/docs/intro-en', },
+            { label: '入门导览',   to: '/docs/intro-cn', },
+            { label: 'Blog', to: '/blog', },
           ],
         },
         {
           title: 'Community',
           items: [
-            {
-              label: 'GitHub Discussion',
-              href: `https://github.com/${github_org}/${github_repo}/discussions`,
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/kHUzgQxgbJ',
-            },
-            {
-              label: 'Gitter',
-              href: 'https://matrix.to/#/#LabNow_community:gitter.im',
-            },
+            { label: 'Discord', href: 'https://discord.gg/kHUzgQxgbJ',},
+            { label: 'Discourse', href: 'https://labnow.discourse.group/',},
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: `https://github.com/${github_org}`,
-            },
+            { label: 'GitHub', href: `https://github.com/${github_org}`, },
+            { label: 'DockerHub Repos', href: `http://hub.docker.com/u/LabNow`, },
+            { label: 'Quay.io Repos', href: `https://quay.io/organization/labnow`, },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ${name_brand}.`,
+      copyright: `Copyright © 2024-${new Date().getFullYear()} ${name_brand}.`,
     },
     prism: {
       theme: prismThemes.github,
@@ -126,5 +108,3 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 };
-
-export default config;

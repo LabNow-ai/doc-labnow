@@ -1,5 +1,5 @@
 ---
-slug: 2024-container-practice
+slug: 2025-container-practice
 title: "🀄️ 基于容器化的开发和DevOps的实践和经验"
 authors: [haobibo]
 tags: [LabNow, docs]
@@ -16,6 +16,8 @@ tags: [LabNow, docs]
 
 无论开发者是在本地的开发环境，如Linux（ubuntu/centos）、Windows(WSL)、macOS（Intel/M系列芯片）等平台上，还是在构建环境（如CI/CD流水线）、还是运行环境（如生产环境），
 都可以使用容器，确保使用相同的环境，消除各种因为环境、版本、配置等的差异，带来的协调困难，减少“在我机器上没问题”的情况。
+
+<!-- truncate -->
 
 ### A2. 降低复杂环境管理和配置难度
 

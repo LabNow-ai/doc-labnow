@@ -1,5 +1,5 @@
 ---
-slug: 2024-LabNow-stack-ci-cd-practices-and-philosophy-cn
+slug: 2025-labnow-stack-ci-cd-practices-and-philosophy-cn
 title: "🀄️ LabNow Stack的CI/CD的思路、实践、理念"
 authors: [haobibo]
 tags: [LabNow, docs]
@@ -18,6 +18,8 @@ tags: [LabNow, docs]
 因此，很自然的选择是 **将更多的功能实现放在源代码中的脚本/模块里，而不是依赖于工具提供的功能**（例如：GitHub Actions）。
 
 基于这一理念，我们建立了我们的 CI/CD 实践以及相应的工具包。
+
+<!-- truncate -->
 
 以下是我们 CI/CD 的工具包示例，包括以下部分：
 

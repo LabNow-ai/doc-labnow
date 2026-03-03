@@ -1,5 +1,5 @@
 ---
-sidebar_position: 01
+sidebar_position: 91
 ---
 
 # LabNow.ai平台具体功能介绍
