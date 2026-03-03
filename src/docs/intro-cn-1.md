@@ -2,11 +2,11 @@
 sidebar_position: 01
 ---
 
-# RWS平台具体功能介绍
+# LabNow.ai平台具体功能介绍
 
 ## 视频教程
 
-_注意：网址已更新为rws.ailifesci.cn_
+_注意：网址已更新为labnow.cn_
 
 [请至钉钉文档查看附件《内测欢迎视频.mp4》](https://alidocs.dingtalk.com/i/nodes/1DKw2zgV2Pzgr3Z7cK1OEnyY8B5r9YAn?authCode=93825fe8a77d3f20b0074ff7e26fe4d9&code=93825fe8a77d3f20b0074ff7e26fe4d9&iframeQuery=anchorId%3DX02m1ir6wqd05992z7zjrml&utm_scene=team_space)
 
@@ -44,7 +44,7 @@ _注意：网址已更新为rws.ailifesci.cn_
 
 #### 启动方法二
 
-点击左上角![image.png](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlKaMaVbGZqDvL/img/5f7576c4-98cd-408b-a506-cb367002e4d1.png)打开启动项页面，在启动项中点击笔记本中的任意编程语言。    
+点击左上角![image.png](https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlKaMaVbGZqDvL/img/5f7576c4-98cd-408b-a506-cb367002e4d1.png)打开启动项页面，在启动项中点击笔记本中的任意编程语言。
 
 [请至钉钉文档查看附件《新建笔记本2.mp4》](https://alidocs.dingtalk.com/i/nodes/1DKw2zgV2Pzgr3Z7cK1OEnyY8B5r9YAn?authCode=93825fe8a77d3f20b0074ff7e26fe4d9&code=93825fe8a77d3f20b0074ff7e26fe4d9&iframeQuery=anchorId%3DX02lzjimjlg2ofkrp2ae42&utm_scene=team_space)
 

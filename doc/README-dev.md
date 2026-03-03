@@ -1,17 +1,17 @@
 ```bash
 docker run -it \
-	--name='dev-node-qpod-pages' \
-	--hostname='QPod-node' \
+	--name='dev-node-pages' \
+	--hostname='LabNow-node' \
 	-p 3000:3000 \
 	-v $(pwd):/root/project-docs \
 	-w /root/project-docs \
-	qpod/node
+	quay.io/labnow/node
 
-docker exec -it dev-node-qpod-pages bash
+docker exec -it dev-node-pages bash
 
-cd rws-doc
+cd src
 
-pnpm run install
+npx pnpm i
 
-pmpm run start
+npm run start
 ```

@@ -17,16 +17,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/setup-node@v4
         with:
           node-version: '23'
       - run: |
-            cd rws-doc && npm install && npm run build
+            cd src && npx pnpm install && npx pnpm run build
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with: # 👇 Specify build output path
-          path: rws-doc/build
+          path: src/build
 
   deploy:
     needs: build

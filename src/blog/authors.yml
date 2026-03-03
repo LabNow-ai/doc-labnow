@@ -1,6 +1,6 @@
 haobibo:
   name: Bibo HAO (Peter Howe)
-  title: Founder and CTO of Ai LifeSci
+  title: Founder and CEO of LabNow
   url: https://github.com/haobibo
   image_url: https://github.com/haobibo.png
 
@@ -10,20 +10,14 @@ luyutao:
   url: https://github.com/eluyutao
   image_url: https://github.com/eluyutao.png
 
-guoyangming:
-  name: Yangming GUO
-  title: AI Engineer
-  url: https://github.com/Dean-98543
-  image_url: https://github.com/Dean-98543.png
-
 xiangye:
   name: Ye XIANG
   title: Full-stack Developer
   url: https://github.com/Corgi14
   image_url: https://github.com/Corgi14.png
 
-zuoliping:
-  name: Liping ZUO
+morrison:
+  name: Morrison Zhou
   title: Application Developer
-  url: https://github.com/zuozuozuosuccess
-  image_url: https://github.com/zuozuozuosuccess.png
+  url: https://github.com/namelessman
+  image_url: https://github.com/namelessman.png

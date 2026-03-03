@@ -30,7 +30,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`RWS Cloud Platform`}
+      title={`LabNow.ai`}
       description="One-stop AI and Data Science Platform.">
       <HomepageHeader />
       <main>
