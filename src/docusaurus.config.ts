@@ -5,6 +5,8 @@ const github_org = 'LabNow-ai';
 const github_repo = 'doc-labnow';
 const github_dir = 'src';
 const name_brand = 'LabNow.ai';
+const ga_tracking_id = 'G-BL1B7QW4VB';
+const gtm_container_id = 'GTM-T9X96FS3';
 
 export default {
   title: 'Documentation',
@@ -60,7 +62,8 @@ export default {
         theme: {
           customCss: './src/css/custom.css',
         },
-        gtag: {trackingID: 'G-BL1B7QW4VB', anonymizeIP: false,},
+        gtag: {trackingID: ga_tracking_id, anonymizeIP: false,},
+        googleTagManager: {containerId: gtm_container_id},
       } satisfies Preset.Options,
     ],
   ],

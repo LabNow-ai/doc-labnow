@@ -20,6 +20,7 @@
   "dependencies": {
     "@docusaurus/core": "latest",
     "@docusaurus/plugin-google-gtag": "latest",
+    "@docusaurus/plugin-google-tag-manager": "latest",
     "@docusaurus/preset-classic": "latest",
     "@docusaurus/theme-mermaid": "latest",
     "@docusaurus/theme-search-algolia": "latest",
