@@ -1,5 +1,5 @@
 ---
-slug: 2025-labnow-stack-ci-cd-practices-and-philosophy-en
+slug: 2025-labnow-stack-ci-cd-practices-and-philosophy
 title: "LabNow CI/CD Toolkits and Practices"
 authors: [haobibo]
 tags: [LabNow, docs]

@@ -1,5 +1,5 @@
 ---
-slug: 2025-labnow-stack-ci-cd-practices-and-philosophy-cn
+slug: 2025-labnow-stack-ci-cd-practices-and-philosophy
 title: "LabNow Stack的CI/CD的思路、实践、理念"
 authors: [haobibo]
 tags: [LabNow, docs]

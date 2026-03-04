@@ -1,5 +1,5 @@
 ---
-slug: 2025-container-practice
+slug: 2025-labnow-dev-container-practice
 title: "基于容器化的开发和DevOps的实践和经验"
 authors: [haobibo]
 tags: [LabNow, docs]

@@ -49,6 +49,7 @@ export default {
           path: './i18n/en/docusaurus-plugin-content-docs/current',
           routeBasePath: 'docs',
           sidebarPath: './sidebars.ts',
+          editLocalizedFiles: true,
           // Please change this to your repo. Remove this to remove the "edit this page" links.
           editUrl: `https://github.com/${github_org}/${github_repo}/tree/main/${github_dir}/`,
         },
@@ -56,6 +57,7 @@ export default {
           path: './i18n/en/docusaurus-plugin-content-blog',
           routeBasePath: 'blog',
           showReadingTime: true,
+          editLocalizedFiles: true,
           // Please change this to your repo. Remove this to remove the "edit this page" links.
           editUrl: `https://github.com/${github_org}/${github_repo}/tree/main/${github_dir}/`,
         },
