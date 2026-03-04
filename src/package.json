@@ -5,7 +5,10 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start -h 0.0.0.0 -p 3000",
+    "start:en": "docusaurus start -h 0.0.0.0 -p 3000 --locale en",
+    "start:zh-CN": "docusaurus start -h 0.0.0.0 -p 3000 --locale zh-CN",
     "build": "docusaurus build",
+    "preview:i18n": "docusaurus build && docusaurus serve -h 0.0.0.0 -p 3000",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -16,7 +19,10 @@
   },
   "dependencies": {
     "@docusaurus/core": "latest",
+    "@docusaurus/plugin-google-gtag": "latest",
     "@docusaurus/preset-classic": "latest",
+    "@docusaurus/theme-mermaid": "latest",
+    "@docusaurus/theme-search-algolia": "latest",
     "@mdx-js/react": "^3.1.1",
     "clsx": "^2.1.1",
     "prism-react-renderer": "^2.4.1",

@@ -1,0 +1,18 @@
+name: ${PROJECT_NAME:-DEV-docusaurus}
+
+services:
+  dev-docusaurus:
+    container_name: ${CONTAINER_NAME:-dev-docusaurus}
+    hostname: ${CONTAINER_NAME:-dev-docusaurus}
+    image: "quay.io/labnow/node"
+    restart: unless-stopped
+    environment:
+      - PROFILE_LOCALIZE=${PROFILE_LOCALIZE:-aliyun-pub}
+      - ENV_PROFILE=${ENV_PROFILE:-DEV}
+    ports: ["${PORT_WEB:-43000}:3000", "${PORT_APP:-49000}:9000"]
+    volumes:
+      - ../../doc:/root/doc:rw
+      - ../../src:/root/src:rw
+      - ../../tool:/root/tool:rw
+    working_dir: /root/src
+    command: "tail -f /dev/null"

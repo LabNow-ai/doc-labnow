@@ -17,8 +17,7 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/intro-cn" style={{margin: '0 10px'}}>使用指引 - 3min ⏱️</Link>
-          <Link className="button button--secondary button--lg" to="/docs/intro-en" style={{margin: '0 10px'}}>Quick Start - 3min ⏱️</Link>
+          <Link className="button button--secondary button--lg" to="/docs/intro" style={{margin: '0 10px'}}>Quick Start - 3min ⏱️</Link>
         </div>
 
       </div>

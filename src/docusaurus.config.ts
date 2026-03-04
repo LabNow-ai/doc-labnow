@@ -22,13 +22,21 @@ export default {
   projectName: `${github_repo}`, // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set useful metadata like html lang.
-  // For example, if your site is Chinese, you may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['en', 'zh-Hans'],
+    defaultLocale: 'en',
+    locales: ['en', 'zh-CN'],
+    localeConfigs: {
+      'en': {htmlLang: 'en-US'},
+      'zh-CN': {htmlLang: 'zh-CN'},
+    },
+  },
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn"
+    },
+    mermaid: true,
   },
 
   presets: [
@@ -36,11 +44,15 @@ export default {
       'classic',
       {
         docs: {
+          path: './i18n/en/docusaurus-plugin-content-docs/current',
+          routeBasePath: 'docs',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo. Remove this to remove the "edit this page" links.
           editUrl: `https://github.com/${github_org}/${github_repo}/tree/main/${github_dir}/`,
         },
         blog: {
+          path: './i18n/en/docusaurus-plugin-content-blog',
+          routeBasePath: 'blog',
           showReadingTime: true,
           // Please change this to your repo. Remove this to remove the "edit this page" links.
           editUrl: `https://github.com/${github_org}/${github_repo}/tree/main/${github_dir}/`,
@@ -48,6 +60,7 @@ export default {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {trackingID: 'G-BL1B7QW4VB', anonymizeIP: false,},
       } satisfies Preset.Options,
     ],
   ],
@@ -59,18 +72,10 @@ export default {
       title: `${name_brand}`,
       logo: { alt: 'Logo', src: 'img/logo.svg', },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: `https://github.com/${github_org}/`,
-          label: 'GitHub',
-          position: 'right',
-        },
+        {type: 'docSidebar', label: 'Tutorial', position: 'left', sidebarId: 'tutorialSidebar',},
+        {label: 'Blog', position: 'left',to: '/blog', },
+        {type: 'localeDropdown', position: 'right',},
+        {label: 'GitHub', position: 'right', href: `https://github.com/${github_org}/`,},
       ],
     },
     footer: {
@@ -79,16 +84,15 @@ export default {
         {
           title: 'Docs',
           items: [
-            { label: 'Tutorial', to: '/docs/intro-en', },
-            { label: '入门导览',   to: '/docs/intro-cn', },
+            { label: 'Tutorial', to: '/docs/intro', },
             { label: 'Blog', to: '/blog', },
           ],
         },
         {
           title: 'Community',
           items: [
-            { label: 'Discord', href: 'https://discord.gg/kHUzgQxgbJ',},
-            { label: 'Discourse', href: 'https://labnow.discourse.group/',},
+            { label: 'Forum | Discourse', href: 'https://labnow.discourse.group/',},
+            { label: 'Chat | Discord', href: 'https://discord.gg/kHUzgQxgbJ',},
           ],
         },
         {
