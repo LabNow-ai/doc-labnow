@@ -4,12 +4,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 const github_org = 'LabNow-ai';
 const github_repo = 'doc-labnow';
 const github_dir = 'src';
-const name_brand = 'LabNow.ai';
+const name_brand = 'LabNow';
 const ga_tracking_id = 'G-BL1B7QW4VB';
 const gtm_container_id = 'GTM-T9X96FS3';
 
 export default {
-  title: 'Documentation',
+  title: 'LabNow.ai',
   url: 'https://doc.labnow.ai', // production url of the site
 
   favicon: 'img/logo.svg',

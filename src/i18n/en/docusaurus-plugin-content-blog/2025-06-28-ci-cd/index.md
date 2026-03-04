@@ -1,6 +1,6 @@
 ---
 slug: 2025-labnow-stack-ci-cd-practices-and-philosophy-en
-title: "📝 LabNow CI/CD Toolkits and Practices"
+title: "LabNow CI/CD Toolkits and Practices"
 authors: [haobibo]
 tags: [LabNow, docs]
 ---
@@ -24,9 +24,9 @@ Based on this philosophy, we established our CI/CD practice along with correspon
 
 Here is an example of our toolkits for CI/CD, which include the following parts:
 
-- [tool.sh](https://github.com/LabNow/lab-foundation/blob/main/tool.sh): a shell script which include several functions to build code or project.
+- [tool.sh](https://github.com/LabNow-ai/lab-foundation/blob/main/tool.sh): a shell script which include several functions to build code or project.
 
-- [github workflow YAML](https://github.com/LabNow/lab-foundation/blob/main/.github/workflows/build-docker.yml): a CI/CD platform specific configuration which use the `tool.sh` above, and use simple linux shell commands to finish most build tasks. As you can see, each job starts with `source ./tool.sh` to use the functions defined in our toolkits.
+- [github workflow YAML](https://github.com/LabNow-ai/lab-foundation/blob/main/.github/workflows/build-docker.yml): a CI/CD platform specific configuration which use the `tool.sh` above, and use simple linux shell commands to finish most build tasks. As you can see, each job starts with `source ./tool.sh` to use the functions defined in our toolkits.
 
 ## Other Choices
 

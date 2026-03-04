@@ -1,6 +1,6 @@
 ---
 slug: 2025-labnow-stack-ci-cd-practices-and-philosophy-cn
-title: "🀄️ LabNow Stack的CI/CD的思路、实践、理念"
+title: "LabNow Stack的CI/CD的思路、实践、理念"
 authors: [haobibo]
 tags: [LabNow, docs]
 ---
@@ -23,9 +23,9 @@ tags: [LabNow, docs]
 
 以下是我们 CI/CD 的工具包示例，包括以下部分：
 
-- [tool.sh](https://github.com/LabNow/lab-foundation/blob/main/tool.sh)：一个包含几个用于构建代码或项目的函数的 shell 脚本。
+- [tool.sh](https://github.com/LabNow-ai/lab-foundation/blob/main/tool.sh)：一个包含几个用于构建代码或项目的函数的 shell 脚本。
 
-- [github workflow YAML](https://github.com/LabNow/lab-foundation/blob/main/.github/workflows/build-docker.yml)：一个特定于 CI/CD 平台的配置，使用上述的 `tool.sh`，并使用简单的 Linux shell 命令完成大部分构建任务。如你所见，每个作业都以 `source ./tool.sh` 开始，以使用我们工具包中定义的函数。
+- [github workflow YAML](https://github.com/LabNow-ai/lab-foundation/blob/main/.github/workflows/build-docker.yml)：一个特定于 CI/CD 平台的配置，使用上述的 `tool.sh`，并使用简单的 Linux shell 命令完成大部分构建任务。如你所见，每个作业都以 `source ./tool.sh` 开始，以使用我们工具包中定义的函数。
 
 ## 其他选择
 

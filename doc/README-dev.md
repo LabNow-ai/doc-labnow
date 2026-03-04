@@ -1,15 +1,9 @@
+# Docs for development
+
 ```bash
-docker run -it \
-	--name='dev-node-pages' \
-	--hostname='LabNow-node' \
-	-p 3000:3000 \
-	-v $(pwd):/root/project-docs \
-	-w /root/project-docs \
-	quay.io/labnow/node
+./tool/cicd/run-dev.sh start
 
-docker exec -it dev-node-pages bash
-
-cd src
+./tool/cicd/run-dev.sh enter
 
 npx pnpm i
 

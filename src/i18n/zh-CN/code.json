@@ -1,0 +1,65 @@
+{
+  "homepage.header.eyebrow": {
+    "message": "LabNow 文档中心"
+  },
+  "homepage.header.cta.quickStart": {
+    "message": "3 分钟快速开始"
+  },
+  "homepage.header.cta.readNotes": {
+    "message": "查看产品动态"
+  },
+  "homepage.header.panel.label": {
+    "message": "平台定位"
+  },
+  "homepage.header.panel.title": {
+    "message": "为 AI 与数据科学团队打造"
+  },
+  "homepage.header.panel.item1": {
+    "message": "提供 JupyterLab、RStudio、VS Code 的云端 IDE"
+  },
+  "homepage.header.panel.item2": {
+    "message": "面向建模与文档协作的 AI 原生工作流"
+  },
+  "homepage.header.panel.item3": {
+    "message": "可复现研究流程与可共享研究产物"
+  },
+  "homepage.layout.title": {
+    "message": "LabNow.ai"
+  },
+  "homepage.layout.description": {
+    "message": "一站式 AI 与数据科学平台。"
+  },
+  "homepage.features.1.title": {
+    "message": "浏览器中的云端 IDE"
+  },
+  "homepage.features.1.tag": {
+    "message": "开发体验"
+  },
+  "homepage.features.1.description": {
+    "message": "在浏览器中直接使用 JupyterLab、RStudio、VS Code，无需本地安装，提升数据科学与科研效率。"
+  },
+  "homepage.features.2.title": {
+    "message": "AI 原生深度集成"
+  },
+  "homepage.features.2.tag": {
+    "message": "AI 平台"
+  },
+  "homepage.features.2.description": {
+    "message": "整合前沿大模型在代码与写作上的能力，支持数据处理、统计分析、机器学习和研究协作。"
+  },
+  "homepage.features.3.title": {
+    "message": "可复现与可分享"
+  },
+  "homepage.features.3.tag": {
+    "message": "研究质量"
+  },
+  "homepage.features.3.description": {
+    "message": "将分析流程沉淀为 Notebook，便于归档、审核、分享与团队复现。"
+  },
+  "homepage.features.section.label": {
+    "message": "核心能力"
+  },
+  "homepage.features.section.title": {
+    "message": "你和你的 AI Agent 的瑞士军刀"
+  }
+}
